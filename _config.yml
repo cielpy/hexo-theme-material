@@ -27,6 +27,8 @@ scheme: Isolation
 
 # UI & UX: slogan, color, effect
 uiux:
+    fab: true
+    fab_icon: add
     slogan: "每天变得更好一点"
     theme_color: "#039BE5"
     theme_sub_color: "#00BCD4"
