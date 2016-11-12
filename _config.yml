@@ -4,17 +4,17 @@
 
 # Head info
 head:
-    favicon: "/img/favicon.png"
-    high_res_favicon: "/img/favicon.png"
-    apple_touch_icon: "/img/favicon.png"
+    favicon: "/favicon.png"
+    high_res_favicon: "/favicon.png"
+    apple_touch_icon: "/favicon.png"
     keywords: 
 
 # Jump Links Settings
 url:
-    about: #"/about"
-    rss: 
+    about: "/about"
+    rss: "/atom.xml"
     daily_pic: "#"
-    logo: 
+    logo: "/images/default_avatar.jpg"
 
 
 # ---------------------------------------------------------------
@@ -22,12 +22,12 @@ url:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Paradox
-#scheme: Isolation
+#scheme: Paradox
+scheme: Isolation
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "每天变得更好一点"
     theme_color: "#039BE5"
     theme_sub_color: "#00BCD4"
     hyperlink_color: "#039BE5"
@@ -62,7 +62,7 @@ background:
 # Images Settings
 img:
     logo: "/img/logo.png"
-    avatar: "/img/avatar.png"
+    avatar: "/images/default_avatar.jpg"
     daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     footerico: "/img/footer/footer_ico-"
@@ -78,24 +78,25 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 
 # SNS Menu
 sns:
-    email: youremail@email.com
-    twitter: "https://twitter.com/twitter"
-    facebook: "https://www.facebook.com/facebook"
-    googleplus: "https://www.google.com/"
+    email: "beijiu572@gmail.com"
+    twitter: "https://twitter.com/cielpy5"
+    facebook: 
+    googleplus: "https://plus.google.com/+KevinGuo572/"
     weibo: 
-    instagram: 
+    instagram: "https://www.instagram.com/cielpy5/"
     tumblr: 
-    github: 
+    github: "https://github.com/cielpy"
 
 # Sidebar User Dropdown
 dropdown: 
     Email Me: 
-        link: "#"
+        link: "mailto:beijiu572@gmail.com"
         icon: email
 
 # Pages Menu
 pages:
-    
+  标签云: "/tags"
+  Wiki: "https://wiki.imciel.com/"
 
 
 # ---------------------------------------------------------------
@@ -106,8 +107,8 @@ pages:
 # Available value:
 #     duoshuo | disqus
 comment:
-    use: 
-    shortname: 
+    use: disqus
+    shortname: cielpark
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
 # Search Systems
