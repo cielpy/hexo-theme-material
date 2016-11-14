@@ -11,7 +11,6 @@ head:
 
 # Jump Links Settings
 url:
-    about: "/about"
     rss: "/atom.xml"
     daily_pic: "#"
     logo: "/images/default_avatar.jpg"
@@ -99,6 +98,7 @@ dropdown:
 pages:
   标签云: "/tags"
   Wiki: "https://wiki.imciel.com/"
+  关于: "/about"
 
 
 # ---------------------------------------------------------------
