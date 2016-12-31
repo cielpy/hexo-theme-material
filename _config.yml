@@ -4,16 +4,16 @@
 
 # Head info
 head:
-  favicon: "/favicon.png"
-  high_res_favicon: "/favicon.png"
-  apple_touch_icon: "/favicon.png"
-  keywords: 
+    favicon: "/favicon.png"
+    high_res_favicon: "/favicon.png"
+    apple_touch_icon: "/favicon.png"
+    keywords:
 
 # Jump Links Settings
 url:
-  rss: "/atom.xml"
-  daily_pic: "#"
-  logo: "/images/default_avatar.jpg"
+    rss: "/atom.xml"
+    daily_pic: "#"
+    logo: "/images/default_avatar.jpg"
 
 
 # ---------------------------------------------------------------
@@ -21,7 +21,7 @@ url:
 # ---------------------------------------------------------------
 
 # Schemes
-# scheme: Paradox
+#scheme: Paradox
 scheme: Isolation
 
 # UI & UX: slogan, color, effect
@@ -34,7 +34,7 @@ uiux:
     android_chrome_color: "#0097A7"
     nprogress_color: "#FF4081"
     nprogress_buffer: "800"
-    
+
 # JS Effect Switches
 js_effect:
     fade: true
@@ -45,12 +45,12 @@ js_effect:
 #     Material | Github | Plain
 reading:
     markdown: Github
-    entry_excerpt: 120
+    entry_excerpt: 80
     code_highlight: solarized-white
 
 # Thumbnail Settings
 thumbnail:
-    purecolor: 
+    purecolor:
     random_amount: 5
 
 # Background Settings
@@ -61,9 +61,9 @@ thumbnail:
 background:
     purecolor: "#F5F5F5"
     #bgimg: "/img/bg.png"
-    bing: 
+    bing:
         enable: false
-        parameter: 
+        parameter:
 
 # Images Settings
 img:
@@ -84,33 +84,47 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 
 # SNS Menu
 sns:
-  email: "beijiu572@gmail.com"
-  twitter: "https://twitter.com/cielpy5"
-  facebook: 
-  googleplus: "https://plus.google.com/+KevinGuo572/"
-  weibo: 
-  instagram: "https://www.instagram.com/cielpy5/"
-  tumblr: 
-  github: "https://github.com/cielpy"
+    email: "beijiu572@gmail.com"
+    twitter: "https://twitter.com/cielpy5"
+    facebook: 
+    googleplus: "https://plus.google.com/+KevinGuo572/"
+    weibo: 
+    instagram: "https://www.instagram.com/cielpy5/"
+    tumblr: 
+    github: "https://github.com/cielpy"
+    linkedin:
+
+# ShareSNS Settings
+sns_share:
+    twitter: true
+    googleplus: true
+    weibo: false
+    linkedin: false
+    qq: false
+    telegram: true
 
 # Sidebar User Dropdown
-dropdown: 
-    Email Me: 
-        link: "mailto:beijiu572@gmail.com"
+dropdown:
+    Email Me:
+        link: "#"
         icon: email
+
+sidebar_categories: true
 
 # Pages Menu
 pages:
-  标签云: "/tags"
-  Wiki: "https://wiki.imciel.com/"
-  关于: "/about"
-    
+    标签云: "/tags"
+    Wiki: "https://wiki.imciel.com/"
+    关于: "/about"
+    #about: "/about"
 
+# Posts Qrcode
+qrcode: false
 
 # ---------------------------------------------------------------
 # Integrated Services
 # ---------------------------------------------------------------
-    
+
 # Comment Systems
 # Available value:
 #     duoshuo | disqus
@@ -125,15 +139,15 @@ comment:
 #     swiftype | google | local
 search:
     use: google
-    swiftype_key: 
-        
+    swiftype_key:
+
 # Leancloud Views
 leancloud:
     enable: false
     app_id: #你的app_id
     app_key: #你的app_key
     av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
-    
+
 # Busuanzi 不蒜子 Views
 busuanzi:
     enable: false
